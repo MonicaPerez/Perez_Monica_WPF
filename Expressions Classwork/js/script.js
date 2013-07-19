@@ -16,3 +16,19 @@ age = 38; //definition
 
 var yearOfBirth = 1907; //declaring and defining on the same line
 
+//Variables of different types, numbers, booleans, and strings
+
+var age = 39; // Number variable
+var isStudent = false; // Boolean Variable
+
+var kermit = "my friend";
+var firstName = "Kermit";
+var phrase = "I don't know";
+
+//Arrays
+
+var muppetName = ["Kermit" . "Miss Piggy" , "Gonzo" , "Rizzo"]; //0. 1. 2. 3
+console.log(muppetNames);
+
+
+
