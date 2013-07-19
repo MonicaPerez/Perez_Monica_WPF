@@ -6,4 +6,5 @@ var age = prompt ("Please enter your age."); // setting the variable age to prom
 var height = prompt ("Please enter your height in inches."); // setting the variable height to prompt the user to enter there height in inches and saving it into the console for later use
 var weight = prompt ("Please enter your weight in pounds."); //setting the variable weight to prompt the user to enter there weight in pounds and saving it into the console for later use
 var numberAdded = 655; // I am setting the variable named numberAdded to equal the number 655
+var numberHeightYears = 4.7; // I am setting the variable numberHeightYears to equal the number 4.7
 
