@@ -1,13 +1,13 @@
 //Monica Perez - July 18, 2013 - Expressions Classwork
 
-var yearBorn = 1955;
+/*var yearBorn = 1955;
 
-/*
+
 console.log("Hello World");
 console.log(yearBorn);
 
 alert(yearBorn);
-*/
+
 
 //Defining Variables
 var age; // declaration
@@ -34,7 +34,7 @@ muppetNames[2] = "Fozzy";
 
 var num = 1;
 
-console.log(muppetNames[num]); //lets me see what is in the index #1
+console.log(muppetNames[num]); //lets me see what is in the index #1*/
 
 //Expressions
 
@@ -48,5 +48,20 @@ console.log(a);
 var yearBorn = 1974;
 var age = 2013 - yearBorn;
 console.log(age);
+
+//Expressions - Arithmetic Operators
+ 
+//Area of the triangle is half of the width times the height
+var width = 4;
+var height = 5;
+var area = width * height/2;
+console.log(area);
+
+// Expressions with Arrays
+
+var orangeBins = [234, 567, 883];
+
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log(total);
 
 
