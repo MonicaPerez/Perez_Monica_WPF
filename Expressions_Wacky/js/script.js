@@ -7,4 +7,7 @@ var height = prompt ("Please enter your height in inches."); // setting the vari
 var weight = prompt ("Please enter your weight in pounds."); //setting the variable weight to prompt the user to enter there weight in pounds and saving it into the console for later use
 var numberAdded = 655; // I am setting the variable named numberAdded to equal the number 655
 var numberHeightYears = 4.7; // I am setting the variable numberHeightYears to equal the number 4.7
+var numberWeight = 4.35; // I am setting the variable named numberWeight to equal 4.35
+
+var bMR= numberAdded + (numberWeight * weight) + (numberHeightYears * height) - (numberHeightYears * age) // I am setting the variable named bMR to equal the equation needed to make your basal metabolic rate
 
