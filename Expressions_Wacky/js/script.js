@@ -10,4 +10,4 @@ var numberHeightYears = 4.7; // I am setting the variable numberHeightYears to e
 var numberWeight = 4.35; // I am setting the variable named numberWeight to equal 4.35
 
 var bMR= numberAdded + (numberWeight * weight) + (numberHeightYears * height) - (numberHeightYears * age) // I am setting the variable named bMR to equal the equation needed to make your basal metabolic rate
-
+console.log ("Your Basal Metabloic Rate (BMR) is " + bMR + ". Meaning even if you sit still all day your body will still burn " + bMR + " calories.") // here I am printing to the console the final answer and letting the user know what that answer means.
