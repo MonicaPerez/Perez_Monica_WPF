@@ -3,4 +3,5 @@
 var hoursWorked = prompt("Please enter: How many hours have you worked during the week."); // naming the variable hoursWorked and setting it to equal a prompt to acquire information from the user
 var minHours = 45; // setting the variable to be named minHours and assigning it to the value 45. 
 var answer; //naming the variable answer and not assigning any value at the moment.
-answer = (hoursWorked > minHours) ? "You get the weekend off. Enjoy yourself." : "You do not get the weekend off. Time to get to work."
+answer = (hoursWorked > minHours) ? "You get the weekend off. Enjoy yourself." : "You do not get the weekend off. Time to get to work." // assigning the variable answer to equal a ternary. Meaning if the user meets the requirements the first one will print. if not the second one will print
+console.log(answer);//printing to the console the variable answer (what it holds.)
