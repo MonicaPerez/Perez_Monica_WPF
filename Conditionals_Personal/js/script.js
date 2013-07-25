@@ -4,5 +4,6 @@
 //An average person burns 1300 calories daily, without exercising
 //The aver calories of a small icecream is 230 calories.
 
-var todayCalorieIntake = prompt("How many calories have you eaten today?");//naming the variable todayCalorieIntake assigning it to prompt the user and hold the aquired information.
+var todayCalorieIntake = prompt("Please enter the number of calories have you eaten today.");//naming the variable todayCalorieIntake assigning it to prompt the user and hold the aquired information.
 var averageCaloriesBurnedDaily = 1300; //naming the variable averageCaloriesBurnedDaily and assigning it to he value 1,300.
+var exercise = prompt("Please enter ")
