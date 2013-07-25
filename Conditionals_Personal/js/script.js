@@ -3,3 +3,6 @@
 //If a person intakes less than the average calories burned and you burn over 500 calories while exercising than they can treat themselves to icecream.
 //An average person burns 1300 calories daily, without exercising
 //The aver calories of a small icecream is 230 calories.
+
+var todayCalorieIntake = prompt("How many calories have you eaten today?");//naming the variable todayCalorieIntake making it equal to prompt the user and hold the aquired information.
+var averageCaloriesBurnedDaily = 1300; //
