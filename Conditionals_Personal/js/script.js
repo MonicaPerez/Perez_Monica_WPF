@@ -11,5 +11,5 @@ var exercise = prompt("Please enter the number of calories you burned while exer
 if(todayCalorieIntake < averageCaloriesBurnedDaily && exercise >= 250){//setting an if elese statement and the if part is saying if todayCalorieIntake is less than averageCaloriesBurned and they burned more than 250 calories from exercising then the following statement will print.
 	console.log("Yay! You may eat some icecream.");//printing to the console the statement if the first part is correct if not it will proceed to the next statement.
 }else{
-	console.log("Hit t")
-}
+	console.log("Time to hit the gym!");//Printing to the console the statement that will print if the user does not enther the requirements for the if statement.
+}//closing the else if statement
