@@ -4,10 +4,10 @@
 var age = prompt("Please enter your age?");//naming the variable age and assigning a prompt to that variable; asking the user what their age is.
 var licensedDriversAge = prompt("Please enter the age of the licensed driver that is with you?");// naming the variable licensedDriversAge and assigning a prompt to ask the user the drivers age
 
-if (age > 17){//setting up the statement saying if the variable age is greater than 17 they can drive with anyone.
+if (age >= 17){//setting up the statement saying if the variable age is greater than 17 they can drive with anyone.
 	console.log("You are old enough to drive with a licensed driver of any age.");//printing to the console the statement that applies to the if statement in the previous line.
 }else if (age < 16){//stating that if the first rule does not apply then this rule might apply. if the variable age is less than 16 then the following statement will print to the console.
-	console.log("Sorry you are not old enough to drive.")
-}else if (age = 16 && otherDriverAge >= 21){
+	console.log("Sorry you are not old enough to drive.")//printing to the console the statement if the previous line is true
+}else if (age = 16 && otherDriverAge >= 21){//if the previous two statements do not apply then it moves onto this statement which states if the variable age is equal to 16 and the variable licensedDriversAge is greater than or equal to 21 then the following statement will print to the console.
 
 }
