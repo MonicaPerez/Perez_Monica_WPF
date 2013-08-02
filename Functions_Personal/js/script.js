@@ -8,7 +8,7 @@ var calcPetFood = function(petFood, days){//naming the variable calcPetFood and 
 }//closing the function
 var petFood = prompt("Please enter the number of cans of pet food you use in 1 day.");//naming the variable petFood and prompting the user for information
 var days = prompt("Please enter the amount of days in this month.");//naming the variable days and prompting the user to enter information
-var print = calcPetFood (petFood, days);
+var print = calcPetFood (petFood, days); // naming the variable print and setting it to the function calcPetFood which holds(stores) the variables petFood and days.
 
-answer = (print > 30) ? "You will use " + print + " cans of petFood this month. You need to purchase at least 1 more pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."
+answer = (print > 30) ? "You will use " + print + " cans of petFood this month. You need to purchase at least 1 more pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."//a ternary being set to equal the variable named petFood is greater than the number 1 then it will print the first statement. If it does not follow the requirements then it will print the second statement.
 console.log(answer);
