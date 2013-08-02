@@ -6,3 +6,4 @@ var calcPetFood = function(petFood, days){//naming the variable calcPetFood and 
 
 }
 var petFood = prompt("Please enter the number of cans of pet food you use in 1 day.");
+var days = prompt("Please enter the amount of days in this month.");
