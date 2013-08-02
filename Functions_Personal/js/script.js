@@ -3,7 +3,7 @@
 // How much cans of pet food do they go through in one month?; If they are feeding their animals more than one can a day then they need to go out and buy another 24 pack of pet food.
 
 var calcPetFood = function(petFood, days){//naming the variable calcPetFood and setting it to a function, setting that function to store the user input for the variable named petFood and the user input for the variable named days
-	var total = petFood * days//naming the variable total and setting it to equal the variable named petFood multiplied by the variable named days
+	var total = petFood * days;//naming the variable total and setting it to equal the variable named petFood multiplied by the variable named days
 	return total;// returning the total back to the console
 }//closing the function
 var petFood = prompt("Please enter the number of cans of pet food you use in 1 day.");//naming the variable petFood and prompting the user for information
