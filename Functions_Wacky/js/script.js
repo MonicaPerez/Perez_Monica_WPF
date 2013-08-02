@@ -10,5 +10,6 @@ if (male = 1){
 	calcMaleBmr(weight, height, age);
 	function calcMaleBmr(w,h,a){
 		var maleBmr = 66 + (6.23 * w) + (12.7 * h) - (6.8 * a);
+		console.log("Your Basil Metabolic Rate (BMR) is " + bmr + ".");
 	}
 }
