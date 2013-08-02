@@ -10,4 +10,4 @@ var days = prompt("Please enter the amount of days in this month.");
 var print = calcPetFood (petFood, days);
 
 answer = (petFood > 1) ? "You need to purchase another 30 pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."
-console.log()
+console.log(answer);
