@@ -11,4 +11,4 @@ var days = prompt("Please enter the amount of days in this month.");//naming the
 var print = calcPetFood (petFood, days); // naming the variable print and setting it to the function calcPetFood which holds(stores) the variables petFood and days.
 
 answer = (print > 30) ? "You will use " + print + " cans of petFood this month. You need to purchase at least 1 more pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."//a ternary being set to equal the variable named petFood is greater than the number 1 then it will print the first statement. If it does not follow the requirements then it will print the second statement.
-console.log(answer);
+console.log(answer); //printing to the console the ternary named answer depending on the user input
