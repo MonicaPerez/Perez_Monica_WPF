@@ -18,6 +18,6 @@ if(male <= 1){//setting an if else statement; if the variable named male is less
 		var femaleBmr = 655 + (4.35 * w) + (4.7 * h) - (4.7 * a);//setting the variable to be named femaleBmr and setting that to equal the equation for a woman's basal metabolic rate.
 		console.log("Your Basil Metabolic Rate (BMR) is " + femaleBmr + ".");//printing to the console the statement if the user input meets the requirements
 	}//closing the function
-}else{
-	console.log("I did not understand your input.");
+}else{//setting up the last part of the if else statement, if the user input does not meet any of the previous requirments than the following statement will print to the console.
+	console.log("I did not understand your input.");//printing to the console the statement that will apply if the user input does not follow the if or else if statements.
 }
