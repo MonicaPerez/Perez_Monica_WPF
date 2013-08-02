@@ -10,5 +10,5 @@ var petFood = prompt("Please enter the number of cans of pet food you use in 1 d
 var days = prompt("Please enter the amount of days in this month.");
 var print = calcPetFood (petFood, days);
 
-answer = (print > 30) ? "You will use " + print + " cans of petFood this month. You need to purchase another 30 pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."
+answer = (print > 30) ? "You will use " + print + " cans of petFood this month. You need to purchase at least 1 more pack of pet food for your lovely animal." : "You will use " + print + " cans of petFood this month."
 console.log(answer);
