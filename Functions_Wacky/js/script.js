@@ -1,9 +1,9 @@
 //Monica Perez - Wacky Function - August 1, 2013
 // If the user is a male then this will calculate their BMR 
 
-var male = prompt("If you are a male please enter the number 1. If you are a female please enter the numer 5.");
-var age = prompt("Please enter your age in years.");
-var height = prompt("Please enter your height in inches.");
+var male = prompt("If you are a male please enter the number 1. If you are a female please enter the numer 5."); // naming the variable male and prompting the user to enter information
+var age = prompt("Please enter your age in years.");//naming the variable age and setting it to prompt the user to enter information that will be stored
+var height = prompt("Please enter your height in inches."); // naming the variable height and prompting the user to enter information that will be stored in the variable
 var weight = prompt("Please enter your weight in pounds.");
 
 if(male <= 1){
@@ -19,5 +19,5 @@ if(male <= 1){
 		console.log("Your Basil Metabolic Rate (BMR) is " + femaleBmr + ".");
 	}
 }else{
-	console.log("I did not understand your input.")
+	console.log("I did not understand your input.");
 }
