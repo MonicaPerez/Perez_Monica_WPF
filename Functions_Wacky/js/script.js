@@ -13,6 +13,10 @@ if (male = 1){
 		console.log("Your Basil Metabolic Rate (BMR) is " + bmr + ".");
 	}
 }else if (male = 2){
+	calcFemaleBmr(weight, height, age);
+	function calcFemaleBmr(w,h,a){
+		
+	}
 
 }else{
 
